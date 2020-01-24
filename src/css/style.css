@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.header {
+    background: #0022;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.logo {
+    font-size: 25px;
+    list-style: none;
+   /* padding: 3% 0 3% 0; */
+}
+.header-tab  {
+    display: flex;
+    list-style: none;
+}
+.header-tab li+li{
+    padding-left: 30px;
+}
+.header-tab a{
+  text-decoration: none;
+  font-size: 19px;
+}
+.header-tab a:hover{
+   color:#000;
+   transition: all 0,3s ease;
+}
