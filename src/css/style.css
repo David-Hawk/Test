@@ -1,0 +1,17 @@
+.main {
+    background: rgb(125, 212, 191);
+    height: 120vh;
+    
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+   
+}
+.text {
+    padding: 100px 100px;
+    color: #232323;
+    font-size: 22px;
+    text-align: center;
+    align-items: center;
+}
